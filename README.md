@@ -1,6 +1,6 @@
 # Piteas Monorepo
 
-The **Piteas Monorepo** provides a comprehensive development environment to interact with the Piteas API and SDK. It offers two modes of operation: **Basic** and **Advanced**, designed to cater to developers of varying needs and expertise. 
+The **Piteas API/SDK Monorepo** provides a comprehensive development environment to interact with the Piteas API. It offers two modes of operation: **Basic** and **Advanced**, designed to cater to developers of varying needs and expertise. 
 
 ## Features
 
@@ -30,7 +30,7 @@ The **Piteas Monorepo** provides a comprehensive development environment to inte
 
 2. Navigate to the project directory:
    ```bash
-   cd piteas-monorepo
+   cd piteas-api-monorepo
    ```
 
 3. Install dependencies:
@@ -77,6 +77,7 @@ The monorepo contains modular components that developers can easily integrate in
 ## API Reference
 
 The Piteas Monorepo interacts with the following API endpoints:
+- **Active Chain**: Pulsechain
 - **Quote API**: `https://sdk.piteas.io/quote`
 - **Token List**: `https://raw.githubusercontent.com/piteasio/app-tokens/main/piteas-tokenlist.json`
 - **RPC Provider**: `https://rpc.pulsechain.com`
